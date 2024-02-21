@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\Elements\" />
+    <None Include="wwwroot\images\layered-waves-haikei.svg" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\images\layered-waves-haikei.svg" />
+    <Folder Include="Components\Elements\" />
   </ItemGroup>
 
 </Project>

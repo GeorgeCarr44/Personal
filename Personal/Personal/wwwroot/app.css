@@ -1,3 +1,12 @@
+:root {
+    /*colors*/
+    --primary: #FA7268;
+    --secondary: #C62368;
+    --dark: #0C0D0F;
+    --grey: #161616;
+    --light: #FCFCFC;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
