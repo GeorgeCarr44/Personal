@@ -1,2 +1,14 @@
-﻿body {
+﻿.hero {
+    width: 100%;
+    display:flex;
+    background-color: var(--dark);
+}
+
+.hero .section {
+    width: 50%;
+}
+
+.hero-title{
+    font-size: 60px;
+
 }
