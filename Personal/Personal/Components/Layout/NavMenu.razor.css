@@ -13,24 +13,22 @@ body {
 }
 
 nav {
-    height: 60px;
+    height: 64px;
     width: 100%;
-    background-color: var(--grey);
-    padding-left: 30px;
-    padding-right: 10px;
+    background-color: var(--dark);
+    padding: 0 18px;
 }
 
 .logo {
+    vertical-align: central;
     display: inline-block;
-    height: 45px;
-    width: 45px;
-    padding-right: 70px;
+    height: 46px;
+    width: 46px;
 }
 
 .logo img {
     height: 45px;
     width: 45px;
-    border-radius: 40px;
 }
 
 .navbar {
@@ -41,17 +39,24 @@ nav {
 
 .nav-links {
     display: flex;
+    padding-left: 40px;
 }
 
 .nav-item a {
-    transition:  0.5s;
+    transition: 0.5s;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 5vw;
     text-decoration: none;
     color: white;
     border-radius: 6px;
 }
 
+@media-phone {
+    .nav-item a {
+        padding: 10px 1vw;
+        border-radius: 3px;
+    }
+}
 
 .nav-item:hover a {
     color: var(--primary);
