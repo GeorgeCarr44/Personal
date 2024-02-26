@@ -55,8 +55,7 @@ nav {
     text-decoration: none;
     color: white;
     border-radius: 6px;
-    font-family: NATS;
-    font-size: 22px;
+
 }
 
 @media only screen and (max-width: 768px) {

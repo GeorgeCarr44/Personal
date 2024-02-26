@@ -1,4 +1,22 @@
+@font-face {
+    font-family: "NATS";
+    src: url('fonts/NATS-Regular.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: "Numan";
+    src: url('fonts/Numans-Regular.ttf') format('truetype');
+}
+
+.nats {
+    font-family: NATS;
+    font-size: 22px;
+}
+
+.numan {
+    font-family: Numan;
+
+}
 
 :root {
     /*colors*/
