@@ -14,7 +14,7 @@
     flex-direction: column;
     align-self: center;
     width: 60%;
-    padding-left: 20%;
+    padding-left: 24%;
 }
 
 .right {
@@ -24,7 +24,7 @@
 
     .right img {
         align-self: center;
-        width: 60%;
+        width: 460px;
     }
 
 .hero h1, h2 {
