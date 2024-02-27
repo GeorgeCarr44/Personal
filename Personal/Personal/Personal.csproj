@@ -16,12 +16,4 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\images\layered-waves-haikei.svg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Components\Elements\" />
-  </ItemGroup>
-
 </Project>
