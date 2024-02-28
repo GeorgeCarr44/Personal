@@ -1,5 +1,36 @@
-﻿<h3>Experience</h3>
+﻿<div class="section">
+    <div class="title nats">
+        <h2 id="Experience">Experience</h2>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-event">
+            <div class="timeline-heading">
+                <h3>@CalculateYearsExperience() Years of proven professional success</h3>
+                <p>Nothing is more important than practical experience. Bringing ideas to life.</p>
+            </div>
+            <div class="line-container">
+                <div class="dot">2024</div>
+                <div class="line" />
+            </div>
+            <div class="job-details">
+                <h4>Software Engineer | Eploy</h4>
+                <h5>October 2019 - Present</h5>
+                <p>Worked on an award-winning Applicant Tracking System and Talent CRM as part of an agile team. Developed several features in ASP, .Net, .Net Core, RestAPI. Gained experience with C# SQL, APIs, Git, Peer reviews and Scrum</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 
 @code {
+    private int yearsExperience;
+
+    private int CalculateYearsExperience()
+    {
+        return Convert.ToInt32(Math.Floor((DateTime.Now - new DateTime(2015, 08, 01)).TotalDays / 365));
+    }
+
 
 }
