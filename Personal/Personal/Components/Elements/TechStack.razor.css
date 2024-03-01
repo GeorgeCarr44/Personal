@@ -1,15 +1,5 @@
-﻿
-
-.icons-section {
+﻿.icons-section {
     display: flex;
     width: 70%;
     justify-content: space-around;
-}
-
-hr {
-    width: 25%;
-    border: 2px solid var(--light);
-    border-radius: 10px;
-    opacity: 1;
-    margin: 50px 0px;
 }
