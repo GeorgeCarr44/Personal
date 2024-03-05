@@ -48,6 +48,15 @@ p {
     src: url("~/fonts/Roboto-Black.ttf") format('truetype');
 }
 
+
+.AdventOfCode h4 {
+    font-size:40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #00cc00;
+    text-shadow: 0 0 4px #00cc00, 0 0 5px #00cc00;
+}
+
 .streak h4 {
     font-family: "Roboto";
     font-weight: 900;
